@@ -64,3 +64,13 @@ setInterval(function(){
     counter = 60;
   }
 }, 500);
+
+
+/*
+Challenge
+
+Can you make the light change automatically? You can use the setInterval function.
+Open set-interval.html in a browser, you should see a number incrementing.
+Add logic in the interval function to make the counter reset to 0 once it reach 60.
+ How do you integrate this into your traffic light to make it change color automatically.
+*/
