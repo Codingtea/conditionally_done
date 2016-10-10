@@ -1,27 +1,27 @@
 
 const assert = require('assert');
 
-var transportFee = function (cost) {
+var transportFee = function (shift) {
 
-  if (cost.startsWith('morning')) {
+  if (shift.startsWith('morning')) {
 
-    return R20
+    return 'R20';
 
   }
-  else if (cost.startsWith('afternoon')) {
+  else if (shift.startsWith('afternoon')) {
 
-    return R10
+    return 'R10';
   }
   else
 
-  {return 'freebee'}
+  {return 'freebee';
+}
 
 };
 
+//
+// transportFee (('morning'),R20);
+// transportFee (('afternoon'),R10);
 
-transportFee (('morning'),R20);
-transportFee (('afternoon'),R10);
-transportFee (('nightshift'),R0);
-assert.equal(transportFee ('morning'),R20);
-assert.equal(transportFee ('afternoon'),R10);
-assert.equal(transportFee('nightshift'),'freebee');
+assert.equal(transportFee ('morning'),'R20');
+assert.equal(transportFee ('afternoon'),'R10');
