@@ -10,7 +10,9 @@ var lunchWhere = function(bankBalance){
         return "Two minute noodles today!";
     }
 };
-var eat = lunchWhere();
+var eat = lunchWhere(5000);
+
+
 console.log(eat);
 
 //
