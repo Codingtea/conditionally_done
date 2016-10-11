@@ -1,5 +1,5 @@
 //try this in lunchWhere.js
-/* var lunchWhere = function(bankBalance){
+var lunchWhere = function(bankBalance){
     if (bankBalance > 4500 ){
         return "Go and get KFC!"
     }
@@ -11,13 +11,17 @@
     }
 };
 var eat = lunchWhere();
-console.log(eat);*/
-var animals = function (){
-if (a > 7 && b<9 || c > 90)
+console.log(eat);
+
+//
+//
+var animals = function (a,b,c){
+
+if (a > 7 && b < 9 || c > 90)
 
 {return "monkeys"}
 
-   (a>9 && b <9 || c > 90)
+  else   (a >9 && b <9 || c > 90)
     {return"cats"}
 
     //if a is greater than 9 and b less than 9
